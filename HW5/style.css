@@ -1,0 +1,116 @@
+table {
+    max-width: 625px;
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #2f2f2f;
+}
+
+td,
+th {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    width: 200px;
+}
+
+
+.border_none {
+    border: none;
+}
+
+th {
+    color: white;
+
+}
+
+.table_date {
+    color: #8f8585;
+}
+
+.table_name {
+    color: bisque;
+}
+
+span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #8f8585;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.table_more {
+    height: 100%;
+    align-items: center;
+    width: 35px;
+}
+
+.name {
+    display: flex;
+
+}
+
+.date {
+    text-align: left;
+}
+
+
+.triangl {
+    width: 10px;
+    height: 12px;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.check {
+    color: #2f2f2f;
+}
+
+
+.container {
+    align-content: flex-end;
+
+}
+
+
+.search {
+    text-align: cente;
+    display: inline-block;
+    padding: 10px;
+    background-color: #8f8585;
+    border-radius: 5%;
+    border: none;
+    text-align: center;
+}
+
+.point {
+    padding: 10px;
+}
+
+.glass {
+    position: absolute;
+    margin: 10px;
+}
+
+.last_point {
+    padding: 20px;
+}
+
+.table_more.last_point {
+    text-align: right;
+
+}
+
+.tb_3 {
+    text-align: center;
+}
+
+.table_more.points {
+    text-align: right;
+}
