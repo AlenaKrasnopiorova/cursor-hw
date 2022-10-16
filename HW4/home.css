@@ -1,0 +1,339 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+}
+
+
+.main {
+  display: inline;
+}
+
+.sidebar1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-width: 100%;
+  position: relative;
+  background: rgb(238, 48, 24);
+  background: linear-gradient(90deg,
+      rgba(238, 48, 24, 1) 0%,
+      rgba(213, 32, 71, 1) 35%);
+  margin-right: 0px;
+}
+
+.information {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.Title1 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 20px;
+  color: white;
+  margin-right: 81px;
+  margin-top: 122px;
+  line-height: 43px;
+
+}
+
+.Text1 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: white;
+  margin-right: 81px;
+  margin-top: 24px;
+}
+
+.icon1 li {
+  display: inline-flex;
+  margin-top: 42px;
+}
+
+.playstore {
+  margin-right: 28px;
+
+}
+
+.appstore {
+  margin-right: 28px;
+}
+
+.people {
+  max-width: 533px;
+  width: 100%;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+
+.sidebar2 {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  min-width: 100%;
+  margin-left: 0px;
+}
+
+.information2 {
+  align-content: space-between;
+  justify-content: center;
+  margin-top: 117px;
+  margin-left: 176px;
+}
+
+.Title2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 20px;
+  color: black;
+  margin-bottom: 50px;
+
+}
+
+.Text2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 140%;
+  position: relative;
+}
+
+.form {
+  max-width: 320px;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: #fff;
+
+}
+
+.blok_form {
+  display: flex;
+  justify-content: end;
+
+}
+
+.name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+
+#input1 {
+
+  font-family: 'Lato';
+  border-radius: 6px;
+  width: 255px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  margin-right: 30px;
+  padding-left: 31px;
+}
+
+#input2 {
+
+  font-family: 'Lato';
+  border-radius: 6px;
+  width: 255px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding-left: 31px;
+}
+
+#input3 {
+
+  font-family: 'Lato';
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  width: 396px;
+  height: 60px;
+  border: 1px solid #333333;
+  padding-left: 31px;
+
+}
+
+
+#Service {
+  font-family: 'Lato';
+  margin-bottom: 10px;
+  width: 396px;
+  height: 60px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  padding-left: 31px;
+
+}
+
+
+#btn {
+
+  font-family: 'Lato';
+
+  font-size: 11px;
+  color: white;
+  padding: 0.8em 3.2em;
+  border: 1.5px solid #ED4C5C;
+  border-radius: 4px;
+  background: #ED4C5C;
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 160px;
+  height: 50px;
+
+
+
+
+}
+
+.sidebar3 {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(243, 239, 239, 0.322);
+  min-width: 100%;
+  margin-left: 0px;
+
+  width: 1440px;
+  height: 435px;
+}
+
+.blok_1 {
+  margin-left: 166px;
+  margin-top: 85px;
+}
+
+
+
+.Address_title {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.Address {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 30px;
+  color: black;
+}
+
+.blok_2 {
+  margin-top: 85px;
+}
+
+
+.services_title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  color: black;
+
+}
+
+.li1 {
+  list-style-type: none;
+}
+
+.li2 {
+  list-style-type: none;
+}
+
+.li3 {
+  list-style-type: none;
+}
+
+.li4 {
+  list-style-type: none;
+}
+
+.services {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 20px;
+  color: black;
+  padding: 0;
+}
+
+.blok_3 {
+  margin-top: 85px;
+}
+
+
+.tel_title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  color: black;
+
+}
+
+.li5 {
+  list-style-type: none;
+}
+
+.li6 {
+  list-style-type: none;
+}
+
+.tel {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 30px;
+  color: black;
+
+}
+
+.support {
+  font-family: 'Lato';
+  font-style: normal;
+  line-height: 30px;
+  color: black;
+  margin-top: 95px;
+  margin-right: 322px;
+}
+
+
+
+.pic3 {
+  position: absolute;
+  width: 216px;
+  height: 31px;
+
+  top: 1040px;
+  margin-right: 196px;
+}
+
+.end {
+  width: 155px;
+  height: 14px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 141px;
+  color: #101010;
+}

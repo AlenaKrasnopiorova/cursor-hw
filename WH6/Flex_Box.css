@@ -1,0 +1,797 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import "nullstyle.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.2;
+    border: 1px solid #9C69E2;
+
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+
+}
+
+.header__item {
+    list-style: none;
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-left: 40px;
+}
+
+.bold {
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+
+}
+
+.header__btn {
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 50px;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    font-family: 'Avenir';
+    font-weight: 800;
+    font-size: 16px;
+
+}
+
+.container_storag {
+
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 214px;
+    ;
+}
+
+.photo1 {
+    position: absolute;
+    margin-left: 239px;
+    margin-top: 110px;
+    background-image: url("image1\ 1.jpg");
+    width: 885px;
+    height: 468px;
+
+}
+
+.data_storag {
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.info_data_storag {
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 99px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Varela Round";
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0.8em 1em;
+    border: 0;
+    border-radius: 100px;
+    background: #9C69E2;
+    box-shadow: 0 3px 0px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-top: 2%;
+    width: 170px;
+    height: 60px;
+
+}
+
+.title1 {
+    line-height: 110%;
+    font-size: 70px;
+    font-family: Helvetica;
+    color: #212353;
+    margin-bottom: 50px;
+
+
+}
+
+.text1 {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Varela Round";
+    line-height: 160%;
+    color: #4B5D68;
+    margin-bottom: 50px;
+}
+
+/* Розовый блок с картинкой*/
+
+
+.box_pink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    width: 1017px;
+    height: 460px;
+    margin-left: 240px;
+    margin-top: 99.8px;
+
+
+
+
+}
+
+.photo2 {
+    background-image: url("image2.png");
+    width: 477px;
+    height: 504px;
+    left: 210px;
+    top: 810px;
+}
+
+
+
+
+.info_box_pink {}
+
+.title2 {
+    color: rgba(33, 35, 83, 1);
+    font-size: 40px;
+
+    font-family: "Helvetica";
+}
+
+.text2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Varela Round";
+    color: rgba(75, 93, 104, 1);
+
+}
+
+
+/* Промежуточный параграф */
+
+
+.title3 {
+    color: rgba(33, 35, 83, 1);
+    font-size: 35px;
+    margin-left: 45%;
+    margin-top: 20%;
+    font-family: 'Helvetica';
+}
+
+.text3 {
+    color: rgba(75, 93, 104, 1);
+    font-size: 18px;
+    line-height: 28.8px;
+    text-align: center;
+    font-family: "Varela Round";
+}
+
+
+/* Маленькие блоки с картинками */
+.little_bloks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1135px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+
+.search_data {
+    width: 47%;
+    display: flex;
+}
+
+.title_lb1 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #212353;
+}
+
+.tx1 {
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.info_1 {
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-bottom: 132px;
+}
+
+
+
+.hours_acess {
+    width: 47%;
+    display: flex;
+}
+
+
+.info_2 {
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-bottom: 132px;
+}
+
+
+.title_lb2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #212353;
+}
+
+
+.tx2 {
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.print_out {
+    width: 47%;
+    display: flex;
+}
+
+
+
+.title_lb3 {
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #212353;
+}
+
+
+
+.tx3 {
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+
+.security_code {
+    width: 47%;
+    display: flex;
+}
+
+
+.title_lb4 {
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #212353;
+}
+
+
+.tx4 {
+
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+
+.photo3 {
+    background-image: url(image3.jpg);
+    margin-top: 173px;
+    width: 232px;
+    height: 211px;
+    left: 239px;
+    top: 1846px;
+
+}
+
+.photo4 {
+    background-image: url(image4.jpg);
+    margin-top: 173px;
+    width: 241px;
+    height: 185px;
+    left: 813px;
+    top: 1844px;
+}
+
+.photo5 {
+    background-image: url(image5.jpg);
+    margin-top: 100px;
+    margin-right: 35px;
+    width: 245px;
+    height: 181px;
+    left: 220px;
+    top: 2224px;
+}
+
+.photo6 {
+    background-image: url(image6.jpg);
+    margin-top: 60px;
+    margin-right: 35px;
+    width: 230px;
+    height: 201px;
+    left: 818px;
+    top: 2200px;
+
+}
+
+.rarr {
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgba(156, 105, 226, 1);
+}
+
+/* Фиолетовый блок с фото*/
+
+.Box_violet {
+    padding-top: 109px;
+    margin-left: 140px;
+    margin-top: 183px;
+    width: 1118px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+
+}
+
+.title6 {
+    margin-left: 93px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Box_white {
+    margin-left: 93px;
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+    width: 949px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+}
+
+
+
+
+.points {
+    margin-left: 93px;
+    margin-top: 63px;
+}
+
+.point {
+    background-image: url(slide.svg);
+    width: 55px;
+    height: 10px;
+    margin: 0;
+}
+
+.guns {
+    margin-right: 76px;
+    margin-top: 66px;
+}
+
+.photo7 {
+    background-image: url(image7.jpg);
+    width: 132.42px;
+    height: 90px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.title7 {
+
+    width: 250.12px;
+    height: 29px;
+    left: 614.55px;
+    top: 3118px;
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+.link {
+
+    width: 148.6px;
+    height: 22px;
+    left: 614.22px;
+    top: 3170px;
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+}
+
+.tx5 {
+
+    width: 566.46px;
+    height: 130px;
+    left: 614.55px;
+    top: 3188px;
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #4B5D68;
+
+}
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    top: 3648px;
+    background: #9C69E2;
+    opacity: 0.2;
+}
+
+
+/* Футер*/
+
+
+.proposition {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.try {
+    margin-left: 240px;
+}
+
+.title8 {
+
+    margin-top: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    color: #212353;
+}
+
+.tx6 {
+
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.btns_try {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 243px;
+}
+
+.button4 {
+    margin-right: 30px;
+
+}
+
+.button5 {
+    font-family: "Varela Round";
+    font-size: 15px;
+
+    display: inline-block;
+    padding: 0.8em 1em;
+    border: 0.5px solid rgba(170, 170, 170, 0.329);
+    border-radius: 100px;
+    background: #F063B8;
+    box-shadow: 0 3px 0px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+.button6 {
+    margin-right: 30px;
+}
+
+.button7 {
+    font-family: "Varela Round";
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8em 1em;
+    border: 0.5px solid rgba(170, 170, 170, 0.329);
+    border-radius: 100px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 0px rgba(0, 0, 0, 0.1);
+    color: rgba(33, 35, 83, 1);
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+
+}
+
+.footer_bloks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 153px;
+}
+
+.Logo_end {
+    background-image: url(Logo.svg);
+    Width: 49px;
+    Height: 35px;
+    margin-right: 20px;
+
+}
+
+.dataW {
+    display: flex;
+    margin-left: 160px;
+}
+
+
+
+.title9 {
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    margin-top: 19.6px;
+    color: #212353;
+}
+
+
+
+.tx7 {
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+
+}
+
+
+.tx8 {
+
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+
+    color: #212353;
+}
+
+.title10 {
+
+    margin-left: 40px;
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.tx9 {
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+
+}
+
+
+.list {
+    list-style-type: none;
+}
+
+.title11 {
+
+
+    margin-left: 40px;
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.tx10 {
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+
+}
+
+.title12 {
+
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.logo_media {
+    background-image: url(SM.svg);
+    width: 178px;
+    height: 50px;
+}
+
+.tx11 {
+
+
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 180%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+
+.dialog {
+    background-image: url(Group.svg);
+    width: 60px;
+    height: 60px;
+
+
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 270px;
+    margin-top: 118px;
+}
+
+.last_blok {
+    margin-left: 270px;
+
+}
